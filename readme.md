@@ -71,6 +71,6 @@ To execute the script, simply run the Python file:
 
 The script will determine your current activity based on the open applications and the information in the JSON file. It will then update your Revolt.chat status accordingly.
 
-Note: Ensure that you have a valid user and token provided in the script to authenticate with the Revolt API. If you don't have one, you can create a Revolt account and generate the token from the user settings.
+Note: Ensure that you have a valid user and token provided in the script to authenticate with the Revolt API. If you don't have one, you can create a Revolt account and type in the relevant info into the two variables at the top of the script.
 
 For this script to be usefull you would have to run this every few seconds. I have not dabled in this yet but you could make a bash script with a while loop that runs forever with a sleep command to delay it a few seconds. You could also use a systemctl service.
